@@ -1,0 +1,23 @@
+h1{
+
+    padding: 4px;
+    border: solid rgb(241, 188, 13) 5px;
+    background-color:rgb(35, 192, 179);
+  }
+
+
+h2{
+
+padding: 2px;
+border: solid green 3px;
+background-color: blueviolet;
+
+}
+
+h3{
+
+    padding: 1px;
+    border: solid rgb(190, 230, 14) 5px;
+    background-color: rgb(163, 174, 235);
+    
+    }
