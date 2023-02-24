@@ -12,18 +12,81 @@ height: 768px;
 }
 
 h3{
-
 padding: 10px;
 border: solid darkblue 5px;
 background-color: brown;
-
-
-
-
-
-
 }
 
+body, html{
+    height: 100%;
+}
+
+.background-img{
+    /* background-image: url("resources\\images\\bg-lib.jpg");/*two backslashes =>with one backslash did not work!=>https://stackoverflow.com/questions/15969608/what-is-the-difference-between-and-in-file-path*/
+     /*height: 100%;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     opacity: 0.85;*/
+     opacity: 0.85;
+ }
+
+.container{
+    position: relative;
+    color: white;
+}
+
+.container-motto{
+    text-align: center;
+}
+
+.content-text{
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 10px;
+    right: 20px;
+    
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 0px;
+   
+}
+
+li{
+    display: inline;
+}
+
+li a{
+    color: lightgray;
+    font-size:x-large;
+    font-style:normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.li a:visited{
+    color: lightcoral;
+}
+
+.l-item{
+    padding: 15px;
+    border: solid lightskyblue 2px;
+    background-color:darkolivegreen;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.l-item:hover{
+    background-color:darkgoldenrod;
+}
 
 
 
