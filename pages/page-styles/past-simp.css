@@ -35,13 +35,65 @@ h3{
 
 }
 
+body, html{
+    height: 100%;
+}
+
+ul{
+list-style-type: none;
+padding: 10px;
+border: solid rgb(77, 139, 119) 2px;
+background-color: chocolate;
+
+}
+
+
+li{
+display: inline;
+padding: 5px;
+border: solid rgb(102, 210, 243) 3px;
+background-color: rgb(151, 112, 3);
+
+}
+
+
+li a{
+
+color: aliceblue;
+text-decoration: none;
+
+
+
+}
+
+li:hover{
+
+background-color: darkgrey;
 
 
 
 
+}
 
 
+.seit{
+
+position: relative;
 
 
+}
 
+.text-on-img{
+position: absolute;
+top: 25px;
+bottom: 15px;
+left: 5px;
+right: 8px;
+}
+
+
+img{
+
+    height: 100%;
+}
 
